@@ -112,13 +112,13 @@ $n5 set Z_ 0.0
 
 #mobility of the nodes
 #at what time? whic node? wheree to ?at what speed?
-#$ns at 1.0 "$n1 setdest 490.0 340.0 25.0"
-#$ns at 1.0 "$n4 setdest 300.0 130.0 5.0"
-#$ns at 1.0 "$n5 setdest 190.0 440.0 15.0"
+$ns at 1.0 "$n1 setdest 490.0 340.0 25.0"
+$ns at 1.0 "$n4 setdest 300.0 130.0 5.0"
+$ns at 1.0 "$n5 setdest 190.0 440.0 15.0"
 
 
 #the nodes can move any number of time at any location during the simulation(runtime)
-#$ns at 20.0 "$n5 setdest 100.0 200.0 30.0"
+$ns at 20.0 "$n5 setdest 100.0 200.0 30.0"
 
 #creation of agents
 set tcp [new Agent/TCP]
